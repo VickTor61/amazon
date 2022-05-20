@@ -10,11 +10,7 @@ import Home from "./Home/Home";
 import { useStateValue } from "./StateProvider";
 
 function App() {
-<<<<<<< HEAD
   const [, dispatch] = useStateValue();
-=======
-  const [{}, dispatch] = useStateValue();
->>>>>>> ca073aa85892ede6a0df1f0bb5882adb1ca08a5f
 
   useEffect(() => {
     auth.onAuthStateChanged((authUser) => {
@@ -31,11 +27,7 @@ function App() {
         });
       }
     });
-<<<<<<< HEAD
   }, [dispatch]);
-=======
-  }, []);
->>>>>>> ca073aa85892ede6a0df1f0bb5882adb1ca08a5f
 
   return (
     <Router>

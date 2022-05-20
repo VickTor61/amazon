@@ -22,11 +22,7 @@ const handleAuthentication = () => {
       <Link to="/">
         <img
           className="header__logo"
-<<<<<<< HEAD
           src={amazon_logo}
-=======
-          src={`../img/amazon_logo.png`}
->>>>>>> ca073aa85892ede6a0df1f0bb5882adb1ca08a5f
           alt="logo"
         />
       </Link>
