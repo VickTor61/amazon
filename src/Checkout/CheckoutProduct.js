@@ -4,7 +4,7 @@ import StarIcon from "@material-ui/icons/Star";
 import { useStateValue } from "../StateProvider";
 
 function CheckoutProduct({ id, title, price, rating, image }) {
-  const [{ basket }, dispatch] = useStateValue();
+  const [, dispatch] = useStateValue();
 
   const RemovefromBasket = () => {
     dispatch({
