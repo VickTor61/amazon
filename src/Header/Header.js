@@ -5,6 +5,7 @@ import SearchIcon from "@material-ui/icons/Search";
 import ShoppingBasketIcon from "@material-ui/icons/ShoppingBasket";
 import { useStateValue } from "../StateProvider";
 import { auth } from "../firebase";
+
 import amazon_logo from '../assets/amazon_logo.png'
 
 function Header() {
@@ -21,7 +22,11 @@ const handleAuthentication = () => {
       <Link to="/">
         <img
           className="header__logo"
+<<<<<<< HEAD
           src={amazon_logo}
+=======
+          src={`../img/amazon_logo.png`}
+>>>>>>> ca073aa85892ede6a0df1f0bb5882adb1ca08a5f
           alt="logo"
         />
       </Link>
